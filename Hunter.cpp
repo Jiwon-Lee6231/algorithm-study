@@ -40,6 +40,10 @@ int main(void)
 	for (int i = 0; i < T; i++) {
 		cout << cash[i] << endl;
 	}
+
+	delete a;
+	delete b;
+	delete cash;
 	
 	return 0;
 }
